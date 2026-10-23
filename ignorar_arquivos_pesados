@@ -1,0 +1,23 @@
+# Arquivos do R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj
+
+# Pastas de Checkpoints do Pipeline
+checkpoints_nordeste/
+
+# Bases de dados (Evitar subir dados do DATASUS para o Git)
+*.rds
+*.csv
+*.xlsx
+
+# Arquivos temporários e logs
+*.log
+.DS_Store
+
+# Opcional: Descomente as linhas abaixo se não quiser que as imagens geradas subam pro Git automaticamente
+# *.png
+# *.tiff
+# *.docx
